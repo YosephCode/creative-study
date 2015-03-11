@@ -1,0 +1,27 @@
+{
+  "name": "huge-test",
+  "version": "1.0.0",
+  "description": "grunt huge-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YosephCode/huge-test.git"
+  },
+  "author": "yoseph",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YosephCode/huge-test/issues"
+  },
+  "homepage": "https://github.com/YosephCode/huge-test",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
