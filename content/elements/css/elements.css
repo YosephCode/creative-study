@@ -1,0 +1,45 @@
+.hu-icon-card {
+  height: 300px;
+  width: 250px;
+  display: inline-block;
+}
+.hu-icon-card .hu-thumb {
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+.hu-icon-card .hu-icon1 {
+  background: url(../../img/iconRevisions.jpg) top left no-repeat;
+  height: 134px;
+  width: 54%;
+}
+.hu-icon-card .hu-title {
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 55px;
+}
+.hu-icon-card .hu-description {
+  color: #bec0c0;
+  font-size: 14px;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.hu-list-menu {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  line-height: 3.4;
+}
+.hu-list-menu .hu-option {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: white;
+}
+.hu-list-menu .hu-option .hu-link {
+  color: white;
+  text-decoration: none;
+}

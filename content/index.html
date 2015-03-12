@@ -1,0 +1,77 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Arquivos CSS -->
+    <link rel="stylesheet" href="css/dist/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dist/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../build/css/styles.min.css">
+
+    <!-- WebComponents -->
+    <!-- 1. Load platform support before any code that touches the DOM. -->
+    <script src="../bower_components/webcomponentsjs/webcomponents.min.js"></script>
+    <!-- 2. Load the component using an HTML Import -->
+    <link rel="import" href="elements/hu-list-menu.html">
+    <link rel="import" href="elements/hu-icon-skill.html">
+
+
+    <!--[if lt IE 9]>
+    <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Block one -->
+<div class="hu-image-rj"></div>
+<nav class="hu-nav navbar navbar-inverse " role="navigation">
+    <div class="container">
+
+        <!-- Responsivo ícone hamburgue-->
+        <div class="hu-menu-icon navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!--//Responsivo ícone hamburgue-->
+
+        <div class="hu-logo"></div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+            <hu-list-menu></hu-list-menu>
+        </div>
+    </div>
+</nav>
+
+<!-- Block two -->
+<div class="hu-skills">
+    <div class="hu-text-presentation container">
+        <span>We are <span class="hu-bold hu-yellow">creative people</span> with 5 years experiences in <span class="hu-bold hu-yellow">web</span> and <span class="hu-bold hu-yellow">mobile app devvelopment</span>.
+        <br> Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempori.</span>
+    </div>
+    <div class="hu-icons">
+        <hu-icon-skill></hu-icon-skill>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js/vendor/bootstrap.min.js"></script>
+
+<!--  scripts.min.js UGLIFY-->
+<script src="../build/js/scripts.min.js"></script>
+<!-- // scripts.min.js UGLIFY-->
+</body>
+</html>
