@@ -2,6 +2,9 @@ body {
   font-family: "Raleway";
   font-size: 16px;
 }
+body google-map {
+  height: 600px;
+}
 body .hu-bold {
   font-weight: bold;
 }
