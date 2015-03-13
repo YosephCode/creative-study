@@ -2,16 +2,68 @@
   list-style: none;
   padding: 0;
   text-align: center;
-  line-height: 3.4;
+  line-height: 85px;
+  margin-top: 0;
+  height: 85px;
+
   .hu-option{
     display: inline-block;
     padding: 0 15px;
     font-size: 14px;
     text-transform: uppercase;
-    color:white;
+    vertical-align: top;
+    color: #fff;
     .hu-link{
       color:white;
       text-decoration: none;
+    }
+  }
+  .hu-logo{
+    display: inline-block;
+    color: white;
+    width: 86px;
+    height: 110px;
+    background: url(../../content/img/logo.jpg)top left no-repeat;
+    background-position: center;
+    background-size: cover;}
+}
+
+/* Responsividade */
+@media (max-width: 1200px){
+  .hu-list-menu{
+    .hu-option{
+      padding: 0 12px;
+    }
+    .hu-option:first-child{
+      padding-left: 0;
+    }
+    .hu-option:last-child{
+      padding-right: 0;
+    }
+  }
+}
+@media (max-width: 992px){
+  .hu-list-menu{
+    .hu-option{
+      padding: 0 8px;
+    }
+    .hu-option{
+      padding-left: 0;
+    }
+    .hu-option:nth-child(7), .hu-option:nth-child(5){
+      padding:0 3px;
+    }
+  }
+}
+@media (max-width: 768px){
+  .hu-list-menu{
+    height: auto;
+    .hu-option{
+      display: block;
+      line-height: 28px;
+    }
+    .hu-logo{
+      display:none;
     }
   }
 }

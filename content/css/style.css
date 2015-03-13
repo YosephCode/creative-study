@@ -1,6 +1,11 @@
 body {
   font-family: "Raleway";
   font-size: 16px;
+  /* WebComponents do google */
+  /* definições gerais */
+  /* Banner(top) Rio de Janeiro */
+  /* Menu de navegação */
+  /* ícones skills */
 }
 body google-map {
   height: 600px;
@@ -21,14 +26,11 @@ body .hu-image-rj {
 body .hu-nav {
   height: 86px;
 }
-body .hu-nav .hu-logo {
-  position: absolute;
-  left: 46.45%;
-  width: 86px;
-  height: 110px;
-  background: url(../../content/img/logo.jpg) top left no-repeat;
-  background-position: center;
-  background-size: cover;
+body .hu-nav .hu-container {
+  width: 100%;
+}
+body .hu-nav .hu-container .hu-logo-responsive {
+  display: none;
 }
 body .hu-skills {
   font-size: 22px;
@@ -37,4 +39,75 @@ body .hu-skills {
 body .hu-skills .hu-text-presentation {
   height: 180px;
   padding: 60px 15px;
+}
+/* Repsonsividade */
+@media (max-width: 1200px) {
+  body {
+    /* Menu de navegação */
+  }
+  body .hu-nav .hu-container .navbar-collapse {
+    padding: 0;
+  }
+  body .hu-icons {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 992px) {
+  body {
+    /* Banner(top) Rio de Janeiro */
+    /* Menu de navegação */
+  }
+  body .hu-image-rj {
+    height: 400px;
+    margin-top: 86px;
+  }
+  body .hu-nav {
+    height: 86px;
+    margin-top: -486px;
+    margin-bottom: 400px;
+  }
+  body .hu-nav .hu-container .navbar-collapse {
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    /* Banner(top) Rio de Janeiro */
+    /* Menu de navegação */
+  }
+  body .hu-image-rj {
+    margin-top: 16px;
+  }
+  body .hu-nav {
+    height: auto;
+    margin-top: -416px;
+    margin-bottom: 325px;
+  }
+  body .hu-nav .hu-container .hu-logo-responsive {
+    display: block;
+    position: absolute;
+    top: -1px;
+    z-index: 1000;
+    width: 86px;
+    height: 110px;
+    background: url(../../content/img/logo.jpg) top left no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  body .hu-nav .hu-container .hu-menu-icon .hu-toggle-name {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  body .hu-nav .hu-container .hu-menu-icon .hu-toggle-name .sr-only {
+    position: relative;
+    width: auto;
+    height: auto;
+  }
+  body .hu-nav .hu-container .hu-menu-icon .hu-toggle-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
 }

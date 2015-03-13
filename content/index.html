@@ -36,20 +36,24 @@
 <!-- Block one -->
 <div class="hu-image-rj"></div>
 <nav class="hu-nav navbar navbar-inverse " role="navigation">
-    <div class="container">
+    <div class="hu-container container">
 
         <!-- Responsivo ícone hamburgue-->
         <div class="hu-menu-icon navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+            <button type="button" class="hu-toggle-button navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <div class="hu-toggle-name">
+                    <span class="sr-only">Menu</span>
+                </div>
+                <div class="hu-toggle-icon">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </div>
             </button>
         </div>
         <!--//Responsivo ícone hamburgue-->
 
-        <div class="hu-logo"></div>
+        <div class="hu-logo-responsive"></div>
 
         <div id="navbar" class="navbar-collapse collapse">
             <hu-list-menu></hu-list-menu>
