@@ -1,0 +1,33 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<polymer-element name="hu-footer-yellow">
+    <template>
+        <link rel="stylesheet" href="../../build/css/styles.min.css"/>
+        <link rel="stylesheet" href="../css/dist/bootstrap.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+            <ul class="hu-list-icons">
+            <template repeat="{{i in icons}}">
+                <li class="hu-icon-option {{i.class}}">
+                    <div class="span3"><a href="{{i.link}}"><i class="{{i.icon}}"></i></a></div>
+                </li>
+            </template>
+            </ul>
+
+    </template>
+    <script>
+        Polymer('hu-footer-yellow', {
+            ready: function() {
+                // populate the element’s data model
+                this.icons = [
+                    {icon: 'icon-twitter', link: '#', class:'twitter'},
+                    {icon: 'icon-facebook', link: '#', class:'facebook'},
+                    {icon: 'icon-google-plus', link: '#', class:'gplus'},
+                    {icon: 'icon-pinterest-sign', link: '#', class:'pinterest'},
+                    {icon: 'icon-linkedin', link: '#', class:'linkedin'},
+                    {icon: 'icon-dribbble', link: '#', class:'dribbble'},
+                    {icon: 'icon-instagram', link: '#', class:'instagram'}
+                ];
+            }
+        });
+    </script>
+</polymer-element>

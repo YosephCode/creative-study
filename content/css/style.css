@@ -8,6 +8,7 @@ body {
   /* Banner(top) Rio de Janeiro */
   /* Menu de navegação */
   /* ícones skills */
+  /* hu-footer*/
 }
 body google-map {
   height: 600px;
@@ -22,7 +23,7 @@ body .hu-bold {
   font-weight: bold;
 }
 body .hu-yellow {
-  color: #f6d68c;
+  color: #f9c741;
 }
 body .hu-image-rj {
   width: 100%;
@@ -47,6 +48,12 @@ body .hu-skills {
 body .hu-skills .hu-text-presentation {
   height: auto;
   padding: 60px 15px;
+}
+body .hu-footer {
+  height: 175px;
+  background: #f9c741;
+  text-align: center;
+  padding: 60px 0;
 }
 /* Repsonsividade */
 @media (max-width: 1200px) {
@@ -82,7 +89,7 @@ body .hu-skills .hu-text-presentation {
     padding: 0;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   body {
     /* Banner(top) Rio de Janeiro */
     /* Menu de navegação */
@@ -120,5 +127,13 @@ body .hu-skills .hu-text-presentation {
     display: inline-block;
     vertical-align: middle;
     margin-left: 5px;
+  }
+}
+@media (max-width: 479px) {
+  body {
+    /* Footer */
+  }
+  body .hu-footer {
+    height: auto;
   }
 }

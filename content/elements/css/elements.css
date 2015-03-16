@@ -1,3 +1,44 @@
+/* hu-footer */
+.hu-list-icons {
+  list-style: none;
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.hu-list-icons .hu-icon-option {
+  display: inline-block;
+  font-size: 42px;
+  padding: 0px 20px;
+}
+.hu-list-icons .hu-icon-option i {
+  color: #fff;
+  text-decoration: none;
+}
+.hu-list-icons .hu-icon-option i.icon-pinterest-sign {
+  color: gray;
+  font-size: 52px;
+}
+@media (max-width: 767px) {
+  .hu-list-icons {
+    width: 100%;
+  }
+  .hu-list-icons .hu-icon-option {
+    padding: 0 13px;
+  }
+}
+@media (max-width: 479px) {
+  .hu-list-icons {
+    width: 100%;
+  }
+  .hu-list-icons .hu-icon-option {
+    padding: 0 13px;
+  }
+  .hu-list-icons .hu-icon-option.pinterest {
+    display: block;
+    padding: 10px 0;
+  }
+}
+
 .hu-icon-card {
   height: 300px;
   width: 250px;
@@ -104,17 +145,10 @@
 }
 @media (max-width: 992px) {
   .hu-list-menu .hu-option {
-    padding: 0 8px;
-  }
-  .hu-list-menu .hu-option {
-    padding-left: 0;
-  }
-  .hu-list-menu .hu-option:nth-child(7),
-  .hu-list-menu .hu-option:nth-child(5) {
-    padding: 0 3px;
+    padding: 0 4px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hu-list-menu {
     height: auto;
   }

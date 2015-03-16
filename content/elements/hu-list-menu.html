@@ -1,41 +1,41 @@
 <link rel="import" href="../../bower_components/polymer/polymer.html">
 
-<polymer-element name="hu-list-menu" noscript>
+<polymer-element name="hu-list-menu">
     <template>
         <link rel="stylesheet" href="../../build/css/styles.min.css"/>
         <ul class="hu-list-menu">
-            <li class="hu-option">
-                <a class="hu-link" href="#">Hello</a>
-            </li>
-            <li class="hu-option">
-                <a class="hu-link" href="#">About</a>
-            </li>
-            <li class="hu-option">
-                <a class="hu-link" href="#">Services</a>
-            </li>
-            <li class="hu-option">
-                <a class="hu-link" href="#">Works</a>
-            </li>
-            <li class="hu-option">
-                <a class="hu-link" href="#">Price</a>
-            </li>
+            <template repeat="{{l in menu1}}">
+                <li class="hu-option">
+                    <a class="hu-link" href="{{l.link}}">{{l.what}}</a>
+                </li>
+            </template>
             <div class="hu-logo"></div>
-            <li class="hu-option">
-                <a class="hu-link" href="#">Facts</a>
-            </li>
-            <li class="hu-option">
-                <a class="hu-link" href="#">Clients</a>
-            </li>
-            <li class="hu-option">
-                <a class="hu-link" href="#">Words</a>
-            </li>
-            <li class="hu-option">
-                <a class="hu-link" href="#">Blogs</a>
-            </li>
-            <li class="hu-option">
-                <a class="hu-link" href="#">Contact</a>
-            </li>
-
+            <template repeat="{{l in menu2}}">
+                <li class="hu-option">
+                    <a class="hu-link" href="{{l.link}}">{{l.what}}</a>
+                </li>
+            </template>
         </ul>
     </template>
+    <script>
+        Polymer('hu-list-menu', {
+            ready: function() {
+                // populate the element’s data model
+                this.menu1 = [
+                    {what: 'Hello', link: '#'},
+                    {what: 'About', link: '#'},
+                    {what: 'Services', link: '#'},
+                    {what: 'Works', link: '#'},
+                    {what: 'Price', link: '#'}
+                ];
+                this.menu2 = [
+                    {what: 'Facts', link: '#'},
+                    {what: 'Clients', link: '#'},
+                    {what: 'Words', link: '#'},
+                    {what: 'Blog', link: '#'},
+                    {what: 'Contact', link: '#'}
+                ];
+            }
+        });
+    </script>
 </polymer-element>
