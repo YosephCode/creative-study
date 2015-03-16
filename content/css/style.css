@@ -37,7 +37,7 @@ body .hu-skills {
   text-align: center;
 }
 body .hu-skills .hu-text-presentation {
-  height: 180px;
+  height: auto;
   padding: 60px 15px;
 }
 /* Repsonsividade */
@@ -64,8 +64,11 @@ body .hu-skills .hu-text-presentation {
   }
   body .hu-nav {
     height: 86px;
-    margin-top: -486px;
-    margin-bottom: 400px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
   }
   body .hu-nav .hu-container .navbar-collapse {
     padding: 0;
@@ -81,8 +84,8 @@ body .hu-skills .hu-text-presentation {
   }
   body .hu-nav {
     height: auto;
-    margin-top: -416px;
-    margin-bottom: 325px;
+    /*margin-top: -416px;
+      margin-bottom: 325px;*/
   }
   body .hu-nav .hu-container .hu-logo-responsive {
     display: block;

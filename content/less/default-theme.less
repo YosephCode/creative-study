@@ -42,13 +42,12 @@ body {
     font-size: 22px;
     text-align: center;
     .hu-text-presentation{
-      height: 180px;
+      height: auto;
       padding:60px 15px;
     }
   }
 
 }
-
 
 /* Repsonsividade */
 @media (max-width: 1200px){
@@ -77,8 +76,11 @@ body {
     /* Menu de navegação */
     .hu-nav {
       height: 86px;
-      margin-top: -486px;
-      margin-bottom: 400px;
+      position: fixed;
+      right: 0;
+      left: 0;
+      top: 0;
+      z-index: 1030;
       .hu-container{
         .navbar-collapse{
           padding: 0;
@@ -96,8 +98,8 @@ body {
     /* Menu de navegação */
     .hu-nav {
       height: auto;
-      margin-top: -416px;
-      margin-bottom: 325px;
+      /*margin-top: -416px;
+      margin-bottom: 325px;*/
       .hu-container{
         .hu-logo-responsive{
           display: block;

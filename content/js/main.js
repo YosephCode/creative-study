@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+/*
     $("#hu-button").on('click', function () {
         var observe = $('#hu-button').attr('aria-expanded');
         console.log(observe);
@@ -12,7 +12,7 @@ $(document).ready(function(){
             console.log(observe);
             console.log("FALSE");
         }
-    });
+    });*/
 
     /*
     button.click(function(){
