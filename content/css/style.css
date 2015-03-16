@@ -1,7 +1,9 @@
 body {
   font-family: "Raleway";
   font-size: 16px;
+  background: #eff3f3;
   /* WebComponents do google */
+  /* Browsers antigos*/
   /* definições gerais */
   /* Banner(top) Rio de Janeiro */
   /* Menu de navegação */
@@ -9,6 +11,12 @@ body {
 }
 body google-map {
   height: 600px;
+}
+body .browserupgrade {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 300px;
+  font-size: 24px;
 }
 body .hu-bold {
   font-weight: bold;
