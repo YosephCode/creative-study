@@ -1,0 +1,31 @@
+{
+  "name": "my-component",
+  "version": "0.0.4",
+  "homepage": "https://github.com/YosephCode/my-component",
+  "authors": [
+    "Yoseph Santos <yosephcsantos@gmail.com>"
+  ],
+  "description": "versionamento de componente",
+  "main": "my-component.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5"
+  },
+  "_release": "0.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.4",
+    "commit": "2b3315e39f5c3cd2b2c0871b3289424a4d272e13"
+  },
+  "_source": "git://github.com/YosephCode/my-component.git",
+  "_target": "^0.0.4",
+  "_originalSource": "my-component",
+  "_direct": true
+}

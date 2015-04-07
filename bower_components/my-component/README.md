@@ -1,0 +1,2 @@
+# my-component
+Componente versionado

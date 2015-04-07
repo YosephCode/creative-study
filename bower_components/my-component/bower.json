@@ -1,0 +1,21 @@
+{
+  "name": "my-component",
+  "version": "0.0.0",
+  "homepage": "https://github.com/YosephCode/my-component",
+  "authors": [
+    "Yoseph Santos <yosephcsantos@gmail.com>"
+  ],
+  "description": "versionamento de componente",
+  "main": "my-component.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5"
+  }
+}
