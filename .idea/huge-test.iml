@@ -4,6 +4,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
     <orderEntry type="library" name="huge-test node_modules" level="project" />
+=======
+>>>>>>> be42424f1d20d277f6264c93998c6e96224b48d8
   </component>
 </module>

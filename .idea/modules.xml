@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
+<<<<<<< HEAD
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/huge-test.iml" filepath="$PROJECT_DIR$/.idea/huge-test.iml" />
     </modules>
+=======
+    <modules />
+>>>>>>> be42424f1d20d277f6264c93998c6e96224b48d8
   </component>
 </project>
